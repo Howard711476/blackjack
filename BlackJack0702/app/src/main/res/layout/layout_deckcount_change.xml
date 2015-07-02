@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="牌組數量："
+        android:id="@+id/textView6"
+        android:textSize="30dp"
+        android:gravity="center_vertical" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:id="@+id/spinner2"
+        android:layout_weight="1"
+        android:touchscreenBlocksFocus="false"
+        android:spinnerMode="dropdown" />
+</LinearLayout>
